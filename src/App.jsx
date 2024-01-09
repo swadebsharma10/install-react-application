@@ -1,4 +1,4 @@
-import Avatar from "./components/Avatar";
+import Conditional from "./components/Conditional";
 
 
 
@@ -6,10 +6,7 @@ function App() {
   return (
     <section>
     <h2>Learning React Components</h2>
-    <Avatar
-    person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
-    size={100}
-  />
+    <Conditional></Conditional>
     </section>
   );
 }
