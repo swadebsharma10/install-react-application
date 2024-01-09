@@ -1,20 +1,15 @@
-import Profile from "./components/Profile";
-import Profile2 from "./components/Profile2";
+import Avatar from "./components/Avatar";
 
-function Welcome() {
-  return <h1>Welcome to Learn with Sumit </h1>
-}
+
 
 function App() {
   return (
     <section>
     <h2>Learning React Components</h2>
-    <Profile2></Profile2>
-    <Welcome></Welcome>
-     <Profile></Profile>
-     <Profile></Profile>
-     <Profile></Profile>
-     <Profile></Profile>
+    <Avatar
+    person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
+    size={100}
+  />
     </section>
   );
 }
